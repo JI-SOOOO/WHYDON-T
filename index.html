@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+</head>
+<meta charset="UTF-8"> 
+	<style type="text/css">
+
+		.wrap{background:url('21.jpg'); width: 1920px; margin: auto; height: 17000px;}
+		section{position: relative; perspective: 500px}		
+			
+		.clock{width: 700px; z-index: 0; position: absolute; top: -99px; left:-14px;
+		animation: clock infinite linear ;
+		animation-duration: 60s;
+	  	animation-direction: normal;
+		display: block;}
+		@keyframes clock{
+			0%{transform: rotate(0deg)}
+  			100%{transform: rotate(360deg)}
+
+  		
+  		.camera{width: 300px;top: 1100px; left: 1720px;position: absolute; animation: clock infinite linear ;
+		animation-duration: 60s;
+	  	animation-direction: normal;
+		display: block;}
+		@keyframes clock{
+			0%{transform: rotate(0deg)}
+  			100%{transform: rotate(360deg)}
+
+		
+			
+			
+ 	</style>
+	<body>
+			
+			<div class="wrap">
+					<img class="clock" src="clock.png">
+				
+				<section>
+					<img src="camera.png" class="camera">
+				</section>
+				</div>
+				
+		
+
+
+</div>
+</body>
+</html>
